@@ -1,0 +1,33 @@
+.curso{    
+    display: inline-flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+}
+.unidad{
+    display: flex;
+    justify-content: space-between;
+}
+.seccion-unidad{
+    display: flex;
+    align-items: center;
+}
+.seccion-unidad > div{
+    margin-left: 3px;
+}
+.tema{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.recurso{    
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 45%; */
+}
+.seccion-recurso{
+    display: flex;
+    /* align-items: center; */
+}
